@@ -5,7 +5,7 @@ title: G-Portugol
 
 ## 🚀 Começando
 
-Programa **Olá Mundo**:
+### Programa Olá Mundo
 
 ```gportugol
 algoritmo OlaMundo;
@@ -15,7 +15,17 @@ início
 fim
 ```
 
-Programa **FizzBuzz**:
+Compilando e executando:
+
+```shell
+gpt -o olamundo olamundo.gpt
+
+./olamundo
+
+Olá, Mundo!
+```
+
+### Programa FizzBuzz
 
 ```gportugol
 algoritmo fizzbuzz;
@@ -25,7 +35,7 @@ variáveis
 fim-variáveis
 
 início
-    para i de 1 até 100 faça
+    para i de 1 até 15 faça
         se i % 15 = 0 então
             imprima("FizzBuzz");
         senão
@@ -43,7 +53,29 @@ início
 fim
 ```
 
----
+Compilando e executando:
+
+```shell
+gpt -o fizzbuzz fizzbuzz.gpt
+
+./fizzbuzz
+
+1
+2
+Fizz
+4
+Buzz
+Fizz
+7
+8
+Fizz
+Buzz
+11
+Fizz
+13
+14
+FizzBuzz
+```
 
 ## 📘 Manual
 
@@ -52,14 +84,10 @@ Aqui estão os materiais para aprender o G-Portugol:
 - [Online](https://github.com/gportugol/gpt/wiki/Manual)
 - [Em PDF](https://github.com/user-attachments/files/23316204/manual.pdf)
 
----
-
 ## 📥 Downloads
 
 Todas as versões e binários do G-Portugol estão disponíveis na página de
 [releases do GitHub](https://github.com/gportugol/gpt/releases)
-
----
 
 ## ❤️ Sobre o projeto
 
